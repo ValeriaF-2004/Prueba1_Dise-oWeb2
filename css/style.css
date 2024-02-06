@@ -1,0 +1,145 @@
+
+:root{
+	--color-naranja:#ffaf70;
+	--color-titulos:#333;
+	--color-gris:#f2f4ec;
+	--color-hover-menu:#eee;
+	--bg-footer:#1a2130;
+	--bg-header:#ff5f6d;
+	--color-primario:#f75160;
+	--bg-sections:#faf9ff;
+}
+header{
+	font-size: 14px;
+	color: #000000;
+	padding: 20px 0px 50px 0px;
+}
+body{
+	font-size: 14px;
+	color: #888;
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: bolder;
+	font-style: normal;
+}
+h1,h2,h3,h4,h5,h6{
+	color:#333;
+}
+#navbarNav{
+	font-size: 14px;
+	color: #000000;
+	padding: 20px 0px 50px 0px;
+}
+
+#hero title {
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+#hero p{
+	background-color: #ffda79;
+	border-radius: 5px;
+	text-align: left;
+	color: #000;
+	margin-bottom: 20px;
+}
+
+#hero{
+	margin-top: 100px;
+	text-align: left;
+}
+
+#hero h1{
+	margin-bottom: 20px;
+}
+
+.raleway {
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: bolder;
+	font-style: normal;
+  }
+
+  #clients {
+	text-align: center;
+	padding-bottom: 100px;
+  }
+
+  #clients img{
+	  opacity: 0.5;
+  }
+
+  #about{
+	background-color: var(--color-azul-fondo);
+	padding: 100px;
+	color: #333;
+  }
+
+  #about .marcado-fondo {
+	background-color: var(--color-azul-subtitulo);
+	padding: 4px 10px;
+	margin-bottom: 40px;
+
+  }
+
+  #about h2{
+ margin-bottom: 40px;
+  }
+  
+  #countries{
+	text-align: center;
+	padding: 80px;
+	
+  }
+
+  #countries h5{
+	color: #333;
+	background-color: var(--color-amarillo);
+	border-radius: 5px;
+	margin-bottom: 20px;
+  }
+
+  #contries h2{
+	margin-bottom: 50px;
+  }
+
+  #subscribe {
+text-align: center;
+background-color: var(--fondo-morado);
+padding: 110px;
+  }
+
+  #subscribe h3 {
+ text-align: left;
+  }
+  
+  #subscribe p{
+text-align: left;
+color: var(--color-texto-sobre-morado);
+  }
+
+
+
+#subscribe .btn-primary{
+	background-color: #333;
+	color: var(--fondo-footer);
+	padding: 10px 70px;
+	border-radius: 0px;
+}
+
+footer{
+	padding: 130px;
+}
+
+#hero title img{
+	margin-top: 30px;
+
+}
+
+.btn:hover{
+	background-color: #4e4e4e;
+}
+
+
+
+
