@@ -12,8 +12,18 @@
 header{
 	font-size: 14px;
 	color: #000000;
-	padding: 20px 0px 50px 0px;
+    padding: 10px 0;
+	margin-top: 0;
+	margin-bottom: 10px;
+	width: 100%;
+	height: auto;
+	display: table;
+	background-color: #fff;
 }
+header a{
+	color: #000;
+}
+
 body{
 	font-size: 14px;
 	color: #888;
@@ -25,15 +35,25 @@ body{
 h1,h2,h3,h4,h5,h6{
 	color:#333;
 }
+
+.raleway {
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: bolder;
+	font-style: normal;
+}
+
 #navbarNav{
 	font-size: 14px;
 	color: #000000;
 	padding: 20px 0px 50px 0px;
+	margin: 20px;
 }
 
-#hero title {
+#hero-title {
 	text-align: center;
-	padding-bottom: 100px;
+	padding: 90px 0px 10px 0px;
+	margin: 20px;
 }
 
 #hero p{
@@ -53,88 +73,106 @@ h1,h2,h3,h4,h5,h6{
 	margin-bottom: 20px;
 }
 
-.raleway {
-	font-family: "Raleway", sans-serif;
-	font-optical-sizing: auto;
-	font-weight: bolder;
-	font-style: normal;
-  }
+#hero title img{
+	margin-top: 30px;
+}
 
-  #clients {
+#clients {
 	text-align: center;
-	padding-bottom: 100px;
+	padding: 100px 0px;
   }
 
-  #clients img{
+#clients img{
 	  opacity: 0.5;
   }
 
-  #about{
-	background-color: var(--color-azul-fondo);
+#about{
+	background-color: #cce4e4;
 	padding: 100px;
 	color: #333;
   }
 
-  #about .marcado-fondo {
-	background-color: var(--color-azul-subtitulo);
-	padding: 4px 10px;
+#about .fondo {
+	background-color: #c1dada;
+	padding: 4px 1px;
 	margin-bottom: 40px;
 
   }
 
-  #about h2{
- margin-bottom: 40px;
+#about h2{
+ 	margin-bottom: 40px;
   }
   
-  #countries{
+#countries{
 	text-align: center;
 	padding: 80px;
 	
   }
 
-  #countries h5{
+#contries h2{
+	margin-bottom: 40px;
+}
+
+#countries h5{
 	color: #333;
-	background-color: var(--color-amarillo);
+	background-color: #ffda79;
 	border-radius: 5px;
 	margin-bottom: 20px;
   }
 
-  #contries h2{
-	margin-bottom: 50px;
-  }
+#subscribe {
+	text-align: center;
+	background-color: #d6bbf6;
+	padding: 110px;
+}
 
-  #subscribe {
-text-align: center;
-background-color: var(--fondo-morado);
-padding: 110px;
-  }
-
-  #subscribe h3 {
- text-align: left;
+#subscribe h3 {
+ 	text-align: left;
   }
   
-  #subscribe p{
-text-align: left;
-color: var(--color-texto-sobre-morado);
-  }
-
-
+#subscribe p{
+	text-align: left;
+	color: #4e4e4e;
+}
 
 #subscribe .btn-primary{
 	background-color: #333;
-	color: var(--fondo-footer);
+	color: #fff;
 	padding: 10px 70px;
-	border-radius: 0px;
 }
 
 footer{
-	padding: 130px;
+	background-color: #fff;
+	text-align: center;
+	padding: 50px;
+}
+footer h4{
+	font-size: 16px;
+	color: #000000;
+	margin-bottom: 20px;
+}
+.text-logo{
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 10px;
+}
+footer ul{
+	padding: 0;
+	list-style: none;
+	color: #000;
+}
+footer ul a{
+	text-decoration: none;
+	font-weight: 500;
+}
+footer li{
+	margin-bottom: 10px;
+}
+footer i{
+	font-size: 30px;
 }
 
-#hero title img{
-	margin-top: 30px;
 
-}
 
 .btn:hover{
 	background-color: #4e4e4e;
